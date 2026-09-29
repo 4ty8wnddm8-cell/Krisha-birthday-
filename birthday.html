@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fff1f7">
+<title>Happy Birthday, Krisha 💗</title>
+<style>
+:root{--pink:#ff6fae;--rose:#ffb7d5;--cream:#fff8fb;--text:#49333f;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;background:linear-gradient(180deg,#fff7fb,#ffeef6);color:var(--text);overflow-x:hidden}
+.lock{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;padding:24px;background:radial-gradient(circle at top,#ffd8e9,#fff7fb 60%);transition:.5s}
+.lock.hide{opacity:0;pointer-events:none}
+.box{width:min(430px,100%);padding:34px 24px;border-radius:30px;background:#ffffffdd;backdrop-filter:blur(16px);box-shadow:0 18px 60px #d66d9a35;text-align:center}
+.heart{font-size:52px;animation:pulse 1.5s infinite}
+h1,h2{font-family:Georgia,serif}
+.lock h1{margin:10px 0 8px;font-size:32px}
+.lock p{margin:0 0 20px;opacity:.75}
+input{width:100%;padding:15px 16px;border:1px solid #f2c5d9;border-radius:16px;font-size:16px;outline:none;background:#fff}
+button{border:0;border-radius:16px;padding:14px 20px;background:var(--pink);color:white;font-weight:700;font-size:16px;margin-top:12px;box-shadow:0 8px 20px #ff6fae44}
+.err{height:22px;color:#d94a7c;font-size:13px;margin-top:8px}
+main{max-width:720px;margin:auto;padding:22px 18px 60px}
+.hero{min-height:78vh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative}
+.hero-card{padding:30px 18px}
+.badge{display:inline-block;padding:8px 13px;border-radius:999px;background:#fff;border:1px solid #ffd0e2;color:#d94a7c;font-weight:700}
+.hero h1{font-size:clamp(44px,13vw,78px);line-height:.95;margin:22px 0 12px;color:#d94a7c}
+.hero p{font-size:18px;line-height:1.6;margin:auto;max-width:570px}
+.cta{display:inline-block;margin-top:24px;text-decoration:none;color:white;background:var(--pink);padding:14px 20px;border-radius:999px;font-weight:700}
+section{margin:18px 0;padding:26px 20px;border-radius:28px;background:#ffffffb8;backdrop-filter:blur(12px);box-shadow:0 12px 35px #b74e7e12}
+section h2{text-align:center;font-size:30px;margin:0 0 14px}
+.note{text-align:center;line-height:1.8;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card{min-height:150px;border-radius:22px;background:linear-gradient(135deg,#fff,#ffe0ec);display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;font-weight:700}
+.timeline{display:grid;gap:12px}
+.item{padding:17px;border-radius:20px;background:#fff}
+.item b{color:#d94a7c}
+footer{text-align:center;padding:25px 10px;opacity:.7}
+.heart-float{position:fixed;bottom:-30px;animation:float 6s linear forwards;pointer-events:none;z-index:5}
+@keyframes pulse{50%{transform:scale(1.08)}}
+@keyframes float{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+@media(min-width:600px){main{padding-left:28px;padding-right:28px}.grid{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+
+<div class="lock" id="lock">
+  <div class="box">
+    <div class="heart">💗</div>
+    <h1>A little surprise...</h1>
+    <p>Only Krisha gets to enter ✨</p>
+    <input id="pass" type="password" placeholder="Enter password" autocomplete="off">
+    <button onclick="unlock()">Open my birthday surprise</button>
+    <div class="err" id="err"></div>
+  </div>
+</div>
+
+<main>
+  <div class="hero">
+    <div class="hero-card">
+      <span class="badge">🎀 A birthday made with love</span>
+      <h1>Happy Birthday,<br>Krisha 💗</h1>
+      <p>To my best friend, my another sister, my pure-hearted person — and yes, sometimes the one with the biggest anger issues 😂</p>
+      <a class="cta" href="#letter">Open your letter ↓</a>
+    </div>
+  </div>
+
+  <section id="letter">
+    <h2>💌 A little letter</h2>
+    <p class="note">
+      Dear Krisha,<br><br>
+      You are one of those people who make ordinary days feel special.
+      Thank you for every laugh, every memory, every silly moment and every time
+      you have been there. I hope this birthday brings you the happiest moments
+      and reminds you how loved you are. 💕<br><br>
+      Stay exactly as wonderfully you as you are.
+    </p>
+  </section>
+
+  <section>
+    <h2>✨ Why you're special</h2>
+    <div class="grid">
+      <div class="card">💗 Pure heart</div>
+      <div class="card">😂 Professional mood swings</div>
+      <div class="card">🫶 Another sister</div>
+      <div class="card">🌷 Always memorable</div>
+      <div class="card">🎀 My favourite human</div>
+      <div class="card">🥹 Too precious</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📸 Our memories</h2>
+    <div class="grid">
+      <div class="card">Add photo 1<br>📷</div>
+      <div class="card">Add photo 2<br>📷</div>
+      <div class="card">Add photo 3<br>📷</div>
+      <div class="card">Add photo 4<br>📷</div>
+    </div>
+    <p class="note">You can replace these cards with your favourite photos later.</p>
+  </section>
+
+  <section>
+    <h2>🌷 Little promises</h2>
+    <div class="timeline">
+      <div class="item"><b>01</b> More laughing until our stomachs hurt.</div>
+      <div class="item"><b>02</b> More random photos we will never delete.</div>
+      <div class="item"><b>03</b> More adventures and unforgettable memories.</div>
+      <div class="item"><b>04</b> And obviously… surviving your anger issues 😂</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🎂 One last thing</h2>
+    <p class="note">No matter how many birthdays pass, I hope our friendship always stays this special. Happy Birthday, Krisha! 💗✨</p>
+  </section>
+
+  <footer>Made with 💗 for Krisha</footer>
+</main>
+
+<script>
+const PASSWORD="Ms Bean";
+
+function unlock(){
+  const value=document.getElementById("pass").value;
+  const err=document.getElementById("err");
+  if(value===PASSWORD){
+    document.getElementById("lock").classList.add("hide");
+    localStorage.setItem("krishaBirthdayUnlocked","yes");
+    confettiHearts();
+  }else{
+    err.textContent="Hmm… that's not the secret password 💗";
+  }
+}
+document.getElementById("pass").addEventListener("keydown",e=>{if(e.key==="Enter")unlock()});
+
+function confettiHearts(){
+  for(let i=0;i<18;i++){
+    setTimeout(()=>{
+      const h=document.createElement("div");
+      h.className="heart-float";
+      h.textContent=["💗","💕","✨","🌸"][Math.floor(Math.random()*4)];
+      h.style.left=Math.random()*100+"vw";
+      h.style.fontSize=(18+Math.random()*20)+"px";
+      h.style.animationDuration=(4+Math.random()*3)+"s";
+      document.body.appendChild(h);
+      setTimeout(()=>h.remove(),7000);
+    },i*100);
+  }
+}
+</script>
+</body>
+</html>
